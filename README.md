@@ -54,5 +54,5 @@
 #### 1. 이미지 촬영하기
 #### 2. labelImg를 사용하여 바운딩 박스를 그려주기
 #### 3. 데이터셋 나누기
-* YOLOv8모델에 학습 시키기 위해 train/valid/test폴더에 각각 images, labels폴더를 만들고 복사해주기(1
+* YOLOv8모델에 학습 시키기 위해 train/valid/test폴더에 각각 images, labels폴더를 만들고 복사해주기(
 [trainTestSplit.py파일 참조](https://github.com/venture21/yolov8_drone/blob/main/trainTestSplit.py))
