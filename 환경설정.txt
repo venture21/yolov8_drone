@@ -1,0 +1,20 @@
+PC 환경설정
+1. 아나콘다(미니콘다)설치(lableimg툴 사용)
+   - 다운로드 : https://docs.conda.io/en/latest/miniconda.html#windows-installers
+   - 프로그램 설치
+   - 윈도우 검색에서 anaconda prompt를 찾아서 실행
+
+2. 레이블링툴(labelImg)  설치
+conda create -n yolov8 python=3.8
+conda activate yolov8
+git clone https://github.com/heartexlabs/labelImg
+cd labelImg
+pip install pyqt5 lxml
+pyrcc5 -o libs/resources.py resources.qrc
+python labelimg.py
+
+엘리스 서버 활용
+1. jupyter/VSCode설치(엘리스 코딩서버의 경우 기본 환경 제공)
+
+
+
