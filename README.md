@@ -54,5 +54,15 @@
 #### 1. 이미지 촬영하기
 #### 2. labelImg를 사용하여 바운딩 박스를 그려주기
 #### 3. 데이터셋 나누기
-* YOLOv8모델에 학습 시키기 위해 train/valid/test폴더에 각각 images, labels폴더를 만들고 복사해주기(
-[trainTestSplit.py파일 참조](https://github.com/venture21/yolov8_drone/blob/main/trainTestSplit.py))
+* YOLOv8모델에 학습 시키기 위해 train/valid/test폴더에 각각 images, labels폴더 생성&복사
+* [trainTestSplit.py파일 참조](https://github.com/venture21/yolov8_drone/blob/main/trainTestSplit.py)
+
+#### 4. 데이터셋 YOLOv8로 학습하기
+* YOLOv8패키지를 설치하고 yolov8학습하기
+* [yolov8Train_test.ipynb파일 참조](https://github.com/venture21/yolov8_drone/blob/main/yolov8Train_test.ipynb)
+* 이와 같이 학습하면 실행된 결과의 맨끝에 아래와 같은 결과를 확인
+* [첫번째 학습 결과](https://github.com/venture21/yolov8_drone/blob/main/train1_result.png)
+* numer plate가 가장 mAP가 낮게 나오는 것을 확인(Instances의 갯수도 가장 작음, 다른 클래스는 2배 이상)
+* 이는 [runs/detect/predict/lables.png](https://github.com/venture21/yolov8_drone/blob/main/labels1.png)파일을 통해서도 확인 가능
+
+
