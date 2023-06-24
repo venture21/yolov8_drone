@@ -16,8 +16,11 @@
 
 ### 3. YOLO Label 툴 설치하기
 ``` git clone https://github.com/heartexlabs/labelImg ```
+
 ``` cd labelImg ```
+
 ``` pip install pyqt5 lxml ```
+
 ``` pyrcc5 -o libs/resources.py resources.qrc ```
 
 ### 4. YOLO Label 툴 실행해보기
@@ -27,8 +30,13 @@
 
 ## 엘리스 VSCode환경에서 아나콘다 설치
 ``` mkdir -p ~/miniconda3 ```
+
 ``` wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh ```
+
 ``` bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3 ```
+
 ``` rm -rf ~/miniconda3/miniconda.sh ```
+
 ``` ~/miniconda3/bin/conda init bash ```
+
 ``` ~/miniconda3/bin/conda init zsh ```
