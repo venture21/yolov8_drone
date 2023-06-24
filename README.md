@@ -15,7 +15,7 @@
 * conda activate yolov8
 
 ### 3. YOLO Label 툴 설치하기
-* git clone https://github.com/heartexlabs/labelImg
+``` git clone https://github.com/heartexlabs/labelImg ```
 * cd labelImg
 * pip install pyqt5 lxml
 * pyrcc5 -o libs/resources.py resources.qrc
