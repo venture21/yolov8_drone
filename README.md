@@ -27,7 +27,8 @@
 ``` python labelimg.py ``` 
 를 실행해서 정상적으로 동작되는지 확인
 
-
+<br>
+<br>
 ## 엘리스 VSCode환경에서 아나콘다 설치
 ``` mkdir -p ~/miniconda3 ```
 
