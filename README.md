@@ -44,6 +44,8 @@
 
 ``` ~/miniconda3/bin/conda init zsh ```
 
+<br>
+<br>
 
 ## 데이터셋을 만드는 순서
 #### 1. 이미지 촬영하기
