@@ -70,5 +70,5 @@
 * 이를 위해 만들어진 Albumentations 패키지를 활용할 수 있다.
 * Albumentations은 이미지를 증식해 줄 뿐만 아니라 바운딩 박스도 함께 증식한다.
 * 참조 링크주소는 [Albumentations](https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/)
-* 사용법에 대한 코드는 [testDataAug.ipynb](https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/)
+* 사용법에 대한 코드는 [testDataAug.ipynb](https://github.com/venture21/yolov8_drone/blob/main/testDataAug.ipynb)를 참조한다.
 
